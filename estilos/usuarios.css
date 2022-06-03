@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* navegadora  */
+.navegadora{
+    background-color: black;
+    font-size: 1.5rem;
+}
+.navegadora ul{
+    margin-right: 2%;
+    margin-bottom: 0px ;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 5rem;
+}
+.navegadora ul li{
+    border-radius: 0rem 1rem 0rem 1rem;
+    text-align: center;
+    background-color: black;
+    border: 0.1rem solid white;
+    margin: 1rem;
+    width: 10rem;
+}
+.navegadora:hover{
+    background-color: white;
+    transition:1s;
+}
+.navegadora ul li:hover{
+    background-color: white;
+    border: 0.1rem solid black;
+    transition: 0.2s;
+    transform: scale(1.3,1.3);
+}
+.navegadora ul li:hover a{
+    color: black;
+    transition: 0.2s;
+}
+.navegadora ul a{
+    color: white;
+}
+/* cierre de navegadora */
+.lineas{
+    border: 0.1rem solid black;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* empieza el header */
+.header{
+    font-family: 'Tiro Gurmukhi', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-image: url(../imagenes/fondo-de-usuario-2.jpg);
+    background-size:cover;
+    opacity: 70%;
+}
+header h1{
+    color: white;
+    font-size: 5rem;
+}
+.formulario{
+    width: 50%;
+    padding: 1rem;
+    background-color: gray;
+    color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+}
+/* cierre de el header de la pagina */
+/* footer de la pagina */
+.final{
+    background-color: black;
+    text-align: center;
+}
+.final .logo_facebook{
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem;
+}
+.final .logo_facebook:hover{
+    transform: scale(1.3,1.3);
+    background-color: blue;
+    border-radius: 1rem;
+}
+.final .logo_instagram{
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem;
+}
+.final .logo_instagram:hover{
+    transform: scale(1.3,1.3);
+    background-color: red;
+    border-radius: 1rem;
+}
+.final .logo_whats{
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem;
+}
+.final .logo_whats:hover{
+    transform: scale(1.3,1.3);
+    background-color: green;
+    border-radius: 1rem;
+}
+.final .logo_barber{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 4rem;
+}
+.ultima{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+/* cierra el footer de la pagina */
